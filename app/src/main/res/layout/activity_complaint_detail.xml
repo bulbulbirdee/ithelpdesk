@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ComplaintDetail">
+
+    <ImageView
+        android:layout_width="140dp"
+        android:layout_height="121dp"
+        android:layout_alignStart="@+id/editText7"
+        android:layout_alignTop="@+id/editText4"
+        android:src="@drawable/yellow"
+        android:scaleType="fitXY"/>
+
+    <TextView
+        android:id="@+id/editText4"
+        android:layout_width="155dp"
+        android:textSize="16sp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="17dp"
+        android:layout_marginTop="30dp"
+        android:padding="8dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="ComplaintID" />
+
+    <TextView
+        android:id="@+id/editText5"
+        android:layout_width="155dp"
+        android:textSize="16sp"
+        android:padding="8dp"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/editText4"
+        android:layout_below="@+id/editText4"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Priority" />
+
+    <TextView
+        android:id="@+id/editText6"
+        android:layout_width="155dp"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/editText4"
+        android:layout_below="@+id/editText5"
+        android:ems="10"
+        android:textSize="16sp"
+        android:padding="8dp"
+        android:inputType="time"
+        android:text="TimeStamp"/>
+
+    <TextView
+        android:id="@+id/editText7"
+        android:layout_width="136dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="152dp"
+        android:ems="10"
+        android:textSize="16sp"
+        android:padding="8dp"
+        android:inputType="text"
+        android:text="status" />
+
+    <TextView
+        android:id="@+id/editText8"
+        android:textSize="16sp"
+        android:padding="8dp"
+        android:layout_width="319dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="217dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Ticket heading" />
+
+    <TextView
+        android:id="@+id/editText9"
+        android:textSize="16sp"
+        android:padding="8dp"
+        android:layout_width="317dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText8"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Subcategory" />
+
+    <EditText
+        android:id="@+id/editText10"
+        android:layout_width="319dp"
+        android:layout_height="130dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="127dp"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:hint="Information abut the issue given by the user "/>
+
+    <TextView
+        android:id="@+id/editText11"
+        android:layout_width="89dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/editText8"
+        android:layout_below="@+id/editText10"
+        android:layout_marginTop="-101dp"
+        android:ems="10"
+        android:inputType="date"
+        android:padding="8dp"
+        android:text="Start date"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/editText12"
+        android:layout_width="89dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/editText8"
+        android:layout_below="@+id/editText11"
+        android:ems="10"
+        android:inputType="date"
+        android:padding="8dp"
+        android:text="End date"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/review"
+        android:layout_width="74dp"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/editText8"
+        android:layout_below="@+id/editText11"
+        android:layout_marginTop="-45dp"
+        android:text="Review" />
+
+    <Button
+        android:id="@+id/close"
+        android:layout_width="74dp"
+        android:layout_height="42dp"
+        android:layout_alignEnd="@+id/editText8"
+        android:layout_below="@+id/review"
+        android:text="Close" />
+</RelativeLayout>

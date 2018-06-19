@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Review">
+
+    <ImageView
+        android:layout_width="132dp"
+        android:layout_height="107dp"
+        android:layout_alignStart="@+id/editText7"
+        android:layout_alignTop="@+id/editText4"
+        android:scaleType="fitXY"
+        android:src="@drawable/yellow" />
+
+    <TextView
+        android:id="@+id/editText4"
+        android:textSize="16sp"
+        android:padding="8dp"
+        android:layout_width="155dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="17dp"
+        android:layout_marginTop="30dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="ComplaintID" />
+
+    <TextView
+        android:id="@+id/editText5"
+        android:textSize="16sp"
+        android:padding="8dp"
+        android:layout_width="155dp"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/editText4"
+        android:layout_below="@+id/editText4"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Priority" />
+
+    <TextView
+        android:id="@+id/editText6"
+        android:textSize="16sp"
+        android:padding="8dp"
+        android:layout_width="155dp"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/editText4"
+        android:layout_below="@+id/editText5"
+        android:ems="10"
+        android:inputType="time"
+        android:text="TimeStamp"/>
+
+    <TextView
+        android:id="@+id/editText7"
+        android:textSize="16sp"
+        android:padding="8dp"
+        android:layout_width="136dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="152dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="status" />
+
+    <EditText
+        android:id="@+id/editText10"
+        android:layout_width="319dp"
+        android:layout_height="164dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="196dp"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:hint="Comments regarding the issue"/>
+
+    <Button
+        android:id="@+id/revSubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="14dp"
+        android:text="Submit" />
+</RelativeLayout>

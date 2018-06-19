@@ -1,0 +1,59 @@
+{
+  "project_info": {
+    "project_number": "600991284817",
+    "firebase_url": "https://ithelpdesk-e79ef.firebaseio.com",
+    "project_id": "ithelpdesk-e79ef",
+    "storage_bucket": "ithelpdesk-e79ef.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:600991284817:android:3ce221d4d9408ec2",
+        "android_client_info": {
+          "package_name": "com.android.example.ithelpdesk"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "600991284817-125v0top65v9sdm8nedt9r7n7hivu4en.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.android.example.ithelpdesk",
+            "certificate_hash": "da9622ed93420d1897968785cadcf0bdeca4dd75"
+          }
+        },
+        {
+          "client_id": "600991284817-ogcb63easp2com3aat17sfllrq4m1afm.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "600991284817-ogcb63easp2com3aat17sfllrq4m1afm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBO5hC_mkURDJ82JY3p9lhCzcU8jeTVYJ8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "600991284817-ogcb63easp2com3aat17sfllrq4m1afm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
